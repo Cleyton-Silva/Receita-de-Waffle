@@ -1,0 +1,66 @@
+:root {
+    --Background-da-página: #EAEAEA;
+    --Background-da-receita: #FFFFFF;
+    --ítulos-e-subtítulos: #1B1B1B;
+    --Footer-e-legenda-da-imagem: #8F8F8F;
+    --Outros-textos: #39393A;
+}
+
+
+body {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+    background: var(--Background-da-página);
+    font-family: 'Roboto', sans-serif;
+}
+
+img {
+    background-image: url(img/Classic\ Waffles.jpg);
+    height: 250px;
+    width: 100%;
+    background-size: 100%;
+
+    border-radius: 10px;
+    
+    
+    object-fit: 100%;
+    object-position:center;
+}
+
+.img-waffle{
+    position: relative;
+    top: 50%;
+  
+}
+
+.contato{
+    padding: 1%;
+    
+}
+
+h1,
+h2 {
+    padding-top: 10px;
+    text-align: center;
+}
+
+h5 {
+    text-align: center;
+}
+
+.receita {
+
+    position: relative;
+
+    background-color: var(--Background-da-receita);
+    margin:90px;
+    border-radius: 10px;
+}
+
+
+
+label{
+    margin: 10px;
+}

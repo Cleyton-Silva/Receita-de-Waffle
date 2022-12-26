@@ -1,0 +1,20 @@
+
+
+@media(min-height:779px) {
+    .img-waffle{
+    background-image: url(img/Classic\ Waffles.jpg);
+    height: 100px;
+    width: 100%;
+
+    background-size: auto;
+    border-radius: 10px;
+    
+    position:absolute;
+    top: 10%;
+    display: block;
+  
+    object-fit: 1%;
+    
+    }
+
+}
